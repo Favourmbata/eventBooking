@@ -4,13 +4,14 @@ import com.eventBooking.model.Category;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.time.LocalDateTime;
+
 @Setter
 @Getter
-public class EventRequest {
+public class TicketRequest {
     private String eventName;
     private String customerEmail;
-    private Integer numberOfAttendees;
-    private String date;
-    private String eventDescription;
-    private Category category;
+    private int numberOfTickets;
+    private Category eventType;
+    private LocalDateTime eventTime;
 }

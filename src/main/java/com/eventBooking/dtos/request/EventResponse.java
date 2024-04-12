@@ -9,6 +9,7 @@ import lombok.Setter;
 public class EventResponse {
     private String name;
     private Integer numberOfAttendees;
+    private String eventCreatorEmail;
     private String date;
     private String eventDescription;
     private Category category;
